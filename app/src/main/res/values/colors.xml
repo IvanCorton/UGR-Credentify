@@ -1,0 +1,24 @@
+<resources>
+    <color name="purple_200">#FFFFE4E4</color>
+    <color name="purple_500">#FFFF5959</color>
+    <color name="purple_700">#FFFF7A7A</color>
+    <color name="teal_200">#FFFF5959</color>
+    <color name="teal_700">#FFFFE8F0</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#002200</color>
+    <color name="red">#990000</color>
+    <color name="gray">#FFB48D</color>
+
+    <!-- Colores alternativos para daltonismo -->
+    <color name="purple_200_alt">#FFFFB0A8</color>
+    <color name="purple_500_alt">#FFFF2C00</color>
+    <color name="purple_700_alt">#FFFF0000</color>
+    <color name="teal_200_alt">#FFC8FFFF</color>
+    <color name="teal_700_alt">#FF2FBDFF</color>
+    <color name="black_alt">#FF000000</color>
+    <color name="white_alt">#FF000000</color>
+    <color name="green_alt">#FF00FF00</color>
+    <color name="red_alt">#FFFF00FF</color>
+    <color name="gray_alt">#808080</color>
+</resources>

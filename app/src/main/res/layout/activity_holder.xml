@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/connectionStatusTextView"
+                android:layout_width="194dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/background_rounded"
+                android:gravity="center"
+                android:text="@string/desconectado"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="40dp" />
+
+            <Button
+                android:id="@+id/buttonActionSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_proposal"
+                android:visibility="visible"
+                android:layout_marginBottom="45dp"
+                android:backgroundTint="@color/black" />
+
+            <Button
+                android:id="@+id/buttonManageCredentials2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/manage"
+                android:visibility="visible"
+                android:layout_marginBottom="45dp"
+                android:backgroundTint="@color/black" />
+
+            <Button
+                android:id="@+id/botonAceptar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accept"
+                android:visibility="visible"
+                android:layout_marginBottom="25dp" />
+
+            <EditText
+                android:id="@+id/invitationText"
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:ems="10"
+                android:hint="@string/invitation"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/invitationResponse"
+                android:layout_width="322dp"
+                android:layout_height="164dp"
+                android:gravity="center"
+                android:textIsSelectable="true"
+                android:background="#ECECEC"
+                android:padding="8dp"
+                android:hint="@string/espera_accept"
+                android:layout_marginBottom="55dp" />
+
+            <Button
+                android:id="@+id/checkConnectButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/conection" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

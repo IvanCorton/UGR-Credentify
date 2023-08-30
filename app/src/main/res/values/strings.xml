@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Credentify 1.0</string>
+    <string name="welcome">¡Bienvenido a Credentify!</string>
+    <string name="issuer">Issuer Mode</string>
+    <string name="holder">Holder Mode</string>
+    <string name="receive">Consultar invitación</string>
+    <string name="accept">Aceptar invitación</string>
+    <string name="send">Crear credential schema</string>
+    <string name="send_proposal">Enviar propuesta schema</string>
+    <string name="manage">Gestionar credenciales</string>
+    <string name="invitation">Write invitation details</string>
+    <string name="create">Crear invitación de conexión</string>
+    <string name="invitation_response">Esperando respuesta...</string>
+    <string name="creation_response">Esperando creación de invitación...</string>
+    <string name="request_response">Esperando consulta...</string>
+    <string name="conection">Comprobar conexión</string>
+    <string name="desconectado">DESCONECTADO</string>
+    <string name="espera_accept">Esperando aceptación</string>
+    <string name="credseq">Solicitar credential definition actual</string>
+    <string name="seqno">Esperando seq no.</string>
+    <string name="URL">http://192.168.1.129</string>
+
+</resources>

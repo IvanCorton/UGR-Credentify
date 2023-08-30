@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="45dp">
+
+
+            <Button
+                android:id="@+id/buttonActionSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send"
+                android:visibility="visible"
+                android:layout_marginBottom="45dp"
+                android:backgroundTint="@color/black" />
+
+            <Button
+                android:id="@+id/buttonManageCredentials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/manage"
+                android:visibility="visible"
+                android:layout_marginBottom="45dp"
+                android:backgroundTint="@color/black" />
+
+            <Button
+                android:id="@+id/buttonActionCreateInvitation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create"
+                android:visibility="visible"
+                android:layout_marginBottom="16dp" />
+
+
+            <TextView
+                android:id="@+id/titleInvitation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Invitación"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/responseTextPost"
+                android:layout_width="271dp"
+                android:layout_height="133dp"
+                android:gravity="center_horizontal"
+                android:textIsSelectable="true"
+                android:background="#ECECEC"
+                android:padding="8dp"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/creation_response" />
+
+
+            <ImageView
+                android:id="@+id/qr_code_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_marginBottom="50dp" />
+
+            <Button
+                android:id="@+id/buttonActionReceive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/receive"
+                android:visibility="visible"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/titleInformation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Información"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+
+            <TextView
+                android:id="@+id/responseText"
+                android:layout_width="284dp"
+                android:layout_height="133dp"
+                android:gravity="center_horizontal"
+                android:hint="@string/request_response"
+                android:textIsSelectable="true"
+                android:background="#ECECEC"
+                android:padding="8dp"
+                android:layout_marginBottom="16dp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
