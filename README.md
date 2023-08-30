@@ -1,2 +1,2 @@
-# UGR-TFG
+# Credentify
 Android Implementation of a Self-Sovereign Identity (SSI) Agent Using Hyperledger Aries
